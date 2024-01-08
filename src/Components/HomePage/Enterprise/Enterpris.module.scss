@@ -1,0 +1,35 @@
+.Template {
+    @apply bg-headerColor py-14 px-10;
+
+    .Template_title {
+        @apply text-xl max-w-620 text-white m-auto text-center sm:text-4xl
+    }
+
+    .Template_content {
+        @apply flex justify-center mt-10 flex-wrap;
+    }
+
+    .Template_block {
+        @apply p-5 sm:p-10 max-w-350 bg-white mx-5 rounded-xl my-3
+    }
+
+    .Template_text {
+        @apply text-base mb-10 sm:text-2xl
+    }
+
+    .Template_imgBlock {
+        @apply flex items-center
+    }
+
+    .Template_imgTextBlock {
+        @apply ml-3
+    }
+
+    .Template_name {
+        @apply text-xs font-bold text-headerColor sm:text-lg
+    }
+
+    .Template_profession {
+        @apply text-xs text-headerColor sm:text-sm
+    }
+}

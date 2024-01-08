@@ -1,0 +1,35 @@
+.Customers {
+    @apply mt-36 max-w-1200 m-auto;
+
+    .Customers_content {
+        @apply flex px-4 justify-center items-center tablet2:justify-between lg:items-center flex-wrap 
+    }
+
+    .Customers_img {
+        @apply max-w-300 laptop:max-w-max
+    }
+
+    .Customers_textBlock {
+        @apply max-w-lg
+    }
+
+    .Customers_title {
+        @apply text-2xl mb-10 lg:text-3xl
+    }
+
+    .Customers_block_first {
+        @apply flex items-center mb-4 max-w-500 bg-headerColor py-4 px-10 rounded-md
+    }
+    
+    .Customers_block {
+        @apply flex items-center mb-4 max-w-500 py-4 px-10 rounded-md shadow drop-shadow-2xl
+    }
+
+    .Customers_text_first {
+        @apply text-lg ml-5 text-white
+    }
+
+    .Customers_text {
+        @apply text-lg ml-5
+    }
+}

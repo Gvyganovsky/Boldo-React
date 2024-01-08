@@ -1,0 +1,35 @@
+.Infographic {
+    @apply mt-14;
+
+    .Infographic_grayText {
+        @apply text-gray-500 text-center mb-3
+    }
+
+    .Infographic_titleText {
+        @apply text-2xl px-1 sm:text-3xl m-auto max-w-2xl text-center mb-10
+    }
+
+    .Infographic_imgBlocks {
+        @apply max-w-1200 m-auto flex flex-wrap justify-center
+    }
+
+    .Infographic_imgBlock {
+        @apply mx-4 my-3 md:mx-8
+    }
+
+    .Infographic_title {
+        @apply my-3 text-2xl 
+    }
+
+    .Infographic_text {
+        @apply mb-5 text-gray-500 max-w-300px
+    }
+
+    .arrowBlock {
+        @apply flex border-b border-b-headerColor pb-2 mb-2 w-32
+    }
+
+    .arrowBlock_text {
+        @apply mr-2 text-base
+    }
+}

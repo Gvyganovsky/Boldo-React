@@ -1,0 +1,51 @@
+.Accelerator {
+    @apply mt-10 max-w-1200 m-auto mb-12 px-2;
+
+    .Accelerator_grayText {
+        @apply text-gray-500 text-center mb-3
+    }
+
+    .Accelerator_titleText {
+        @apply text-2xl px-1 sm:text-3xl m-auto max-w-2xl text-center mb-10
+    }
+
+    .Accelerator_content {
+        @apply flex flex-wrap justify-center
+    }
+
+    .Accelerator_block {
+        @apply max-w-300 mx-3
+    }
+
+    .Accelerator_titleBlock {
+        @apply flex items-center mt-5
+    }
+
+    .Accelerator_title {
+        @apply text-blue-900 font-extrabold text-base mr-3
+    }
+
+    .Accelerator_textGray {
+        @apply text-gray-500 text-sm
+    }
+
+    .Accelerator_text {
+        @apply text-xl mt-3
+    }
+
+    .Accelerator_imgBlock {
+        @apply flex items-center mt-5 my-8
+    }
+
+    .Accelerator_imgText {
+        @apply ml-3
+    }
+
+    .Accelerator_buttonBlock {
+        @apply flex justify-center
+    }
+
+    .Accelerator_button {
+        @apply mt-5 text-headerColor font-black bg-white border-solid rounded-3xl border-2 border-headerColor py-4 px-14
+     }
+}

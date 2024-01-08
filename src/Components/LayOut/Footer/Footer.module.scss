@@ -1,0 +1,35 @@
+.Footer {
+    @apply grid py-10 shrink-0;
+
+    .Footer_content {
+        @apply flex justify-evenly flex-wrap md:flex md:justify-evenly
+    }
+
+    .Footer_logoBlock {
+        @apply max-w-300 ml-5
+    }
+
+    .Footer_logoText {
+        @apply mt-7 text-gray-500
+    }
+
+    .Footer_TextGray {
+        @apply mt-10 text-gray-500
+    }
+
+    .Footer_blocks {
+        @apply flex mt-8
+    }
+
+    .Footer_block {
+        @apply mx-1 sm:mx-5
+    }
+
+    .Footer_title {
+        @apply text-xl font-bold mb-8
+    }
+
+    .Footer_text {
+        @apply mb-5 text-gray-500
+    }
+}

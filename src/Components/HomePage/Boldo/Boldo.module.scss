@@ -1,0 +1,39 @@
+.Header {
+   @apply px-10 py-5 bg-headerColor xl:px-100 pb-50;
+
+   .Header_secondBlock {
+      @apply block xl:flex justify-between mb-14;
+   }
+
+   .Boldo_title {
+      @apply text-2xl max-w-none leading-none mb-7 text-white xl:text-5xl xl:max-w-560
+   }
+
+   .Boldo_text {
+      @apply text-white text-lg max-w-620 text-gray-200
+   }
+
+   .Boldo_buttonBlock {
+      @apply flex mt-14 flex-wrap
+   }
+
+   .Boldo_img {
+      @apply hidden xl:block
+   }
+
+   .Boldo_button_Buy {
+      @apply text-headerColor bg-green-300 border-solid rounded-3xl py-4 px-14 font-bold text-xl mr-6
+   }
+
+   .Boldo_button_Explore {
+      @apply text-white bg-headerColor border-solid rounded-3xl border-2 border-white inline-block py-4 px-14 mt-3
+   }
+}
+
+.Header_logosBlock {
+   @apply flex justify-center items-center;
+
+   .Header_logos {
+      @apply mx-10
+   }
+}

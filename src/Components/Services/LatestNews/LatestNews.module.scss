@@ -1,0 +1,47 @@
+.LatestNews {
+    @apply mt-12 max-w-1100 mx-auto;
+
+    .LatestNews_title {
+        @apply 320:text-center sm:text-left text-3xl mb-10
+    }
+
+    .LatestNews_Blocks {
+        @apply 320:justify-center sm:justify-between flex-wrap flex
+    }
+
+    .LatestNews_Block {
+        @apply max-w-300 mx-1
+    }
+
+    .LatestNews_titleBlock {
+        @apply flex items-center mb-5
+    }
+
+    .LatestNews_titleText {
+        @apply text-blue-900 font-extrabold text-base mr-3
+    }
+
+    .LatestNews_textGrayT {
+        @apply text-gray-500 text-sm
+    }
+
+    .LatestNews_imgBlock {
+        @apply flex items-center mt-5 my-8
+    }
+
+    .LatestNews_text {
+        @apply text-xl
+    }
+
+    .LatestNews_imgText {
+        @apply ml-3
+    }
+
+    .LatestNews_buttonBlock {
+        @apply flex justify-center mb-5
+    }
+
+    .LatestNews_button {
+        @apply mt-5 text-headerColor font-black bg-white border-solid rounded-3xl border-2 border-headerColor py-4 px-14
+    }
+}

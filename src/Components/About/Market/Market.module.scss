@@ -1,0 +1,27 @@
+.Market {
+    @apply bg-headerColor py-14;
+
+    .Market_textGray {
+        @apply text-gray-500 text-center mb-3
+    }
+
+    .Market_text {
+        @apply text-2xl text-white text-center md:text-4xl max-w-800 m-auto leading-normal mb-7 px-2
+    }
+
+    .Market_BlueBlocks {
+        @apply flex justify-center flex-wrap-reverse
+    }
+
+    .Market_BlueBlock {
+        @apply mx-10
+    }
+
+    .Market_BlueNum {
+        @apply text-6xl text-green-300 mb-3 md:text-7xl
+    }
+
+    .Market_BlueText {
+        @apply text-white mb-3
+    }
+}

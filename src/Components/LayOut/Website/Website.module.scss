@@ -1,0 +1,19 @@
+.Website {
+    @apply bg-headerColor justify-center py-12;
+
+    .Website_title {
+        @apply text-white text-3xl mb-10 text-center max-w-500 mx-auto px-2
+    }
+
+    .Website_buttonBlock {
+        @apply flex justify-center flex-wrap
+    }
+
+    .Website_buttonEmail {
+        @apply font-medium bg-white rounded-3xl border-2 border-headerColor py-4 px-14 mr-5 mb-1
+    }
+
+    .Website_buttonStart {
+        @apply font-bold text-headerColor bg-green-300 rounded-3xl border-2 border-headerColor py-4 px-14 mr-5
+    }
+}

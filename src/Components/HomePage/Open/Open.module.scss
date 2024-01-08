@@ -1,0 +1,31 @@
+.Open {
+    @apply mt-36 max-w-1200 m-auto;
+
+    .open_content {
+        @apply flex px-4 justify-center items-center tablet2:justify-between lg:items-center flex-wrap 
+    }
+
+    .Open_img {
+        @apply max-w-300 laptop:max-w-max
+    }
+
+    .Open_title {
+        @apply text-2xl mb-10 lg:text-3xl
+    }
+
+    .Open_textBlock {
+        @apply max-w-lg
+    }
+
+    .Open_block {
+        @apply flex items-center mb-4
+    }
+
+    .Open_text {
+        @apply text-lg ml-5 
+    }
+
+    .Open_button {
+        @apply mt-10 py-4 px-14 bg-headerColor border-solid rounded-3xl font-bold text-xl text-white
+    }
+}

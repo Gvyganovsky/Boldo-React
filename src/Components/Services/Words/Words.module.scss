@@ -1,0 +1,48 @@
+.Words {
+    @apply px-2 mt-5 max-w-1200 mx-auto mb-8;
+
+    .Words_Block {
+        @apply 320:max-w-300 320:m-auto 320:block sm:max-w-none sm:flex items-center justify-center pb-5 border-b border-headerColor
+    }
+
+    .Words_textGray {
+        @apply text-gray-500 mb-3 text-center
+    }
+
+    .Words_title {
+        @apply text-headerColor text-5xl text-center mb-12
+    }
+
+    .Words_textBlock {
+        @apply 320:ml-0 max-w-500 sm:ml-14 
+    }
+
+    .Words_titleBlock {
+        @apply flex items-center mb-5
+    }
+
+    .Words_titleText {
+        @apply text-blue-900 font-extrabold text-base mr-3
+    }
+
+    .Words_textGrayT {
+        @apply text-gray-500 text-sm
+    }
+
+    .Words_text {
+        @apply 320:text-2xl sm:text-4xl leading-tight
+    }
+
+    .Words_Block>img {
+        @apply 320:max-w-300 320:m-auto sm:max-w-350
+    }
+
+    .Words_imgBlock {
+        @apply flex items-center mt-5 my-8
+    }
+
+    .Words_imgText {
+        @apply ml-3
+    }
+
+}

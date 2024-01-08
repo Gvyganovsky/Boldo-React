@@ -1,0 +1,35 @@
+.Love {
+    @apply bg-headerColor mb-20;
+
+    .Love_textGray {
+        @apply text-gray-400 text-center mb-3
+    }
+
+    .Love_text {
+        @apply text-white text-5xl text-center max-w-620 m-auto leading-tight mb-3
+    }
+
+    .Love_Gray {
+        @apply text-gray-400 text-center pb-32 max-w-620 m-auto
+    }
+}
+
+.Love_imgBlock {
+    @apply -mt-40 flex justify-center items-center;
+
+    .Love_imgBlock_first {
+        @apply mx-2 md:mx-8
+    }
+
+    .Love1, .Love4 {
+        @apply mb-3
+    }
+
+    .Love_imgBlock_first>img {
+        @apply 320:w-28 sm:w-44 lg:w-auto
+    }
+
+    .Love3 {
+        @apply 320:max-w-150 sm:max-w-240 lg:max-w-3xl
+    }
+}

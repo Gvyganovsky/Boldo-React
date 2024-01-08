@@ -1,0 +1,27 @@
+.Help {
+    @apply mt-20 max-w-1200 m-auto mb-12 px-2;
+
+    img {
+        @apply m-auto
+    }
+
+    .Help_text {
+        @apply text-center text-xl max-w-none lg:text-3xl lg:max-w-500
+    }
+
+    .Help_textBlock {
+        @apply mt-5 justify-between max-w-1100 m-auto lg:mt-12
+    }
+
+    .Help_textBlock {
+        @apply lg:flex items-center
+    }
+    
+    .Help_TextName {
+        @apply mr-3 text-base
+    }
+
+    .Help_Block {
+        @apply flex max-w-350 my-5 border-b border-b-gray-400 pb-4 items-center m-auto lg:max-w-500
+    }
+}

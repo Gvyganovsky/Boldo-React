@@ -1,0 +1,27 @@
+.Header {
+   @apply px-10 py-5 bg-headerColor sm:px-10 py-5 xl:px-100 py-10;
+
+   .header_block {
+      @apply flex justify-between flex-wrap
+   }
+
+   .header_nav {
+      @apply flex items-center
+   }
+
+   .header_nav_flex {
+      @apply flex items-center flex-wrap
+   }
+
+   ul>li {
+      @apply mr-5 text-white
+   }
+
+   ul>li:first-child {
+      @apply mr-5 text-white
+   }
+
+   .Header_button {
+      @apply text-left text-white bg-none mr-5 tablet:mx-5 tablet:text-headerColor tablet:bg-white tablet:border-solid tablet:border-sky-500 tablet:rounded-3xl tablet:px-8 tablet:py-2
+   }
+}
